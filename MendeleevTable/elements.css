@@ -1,0 +1,101 @@
+html{background-color: rgba(214, 255, 255, .3);
+flex-wrap: wrap;
+}
+
+.nonmetall{background-color: rgba(30, 144, 255, .3);}
+
+.halogen{background-color:rgba(108, 49, 252, .25);}
+
+.alkalimetall{background-color: rgba(223, 62, 39, .3);}
+
+.transmetall{background-color: rgba(235, 143, 39, .3);}
+
+.lightmetall{background-color:rgba(173, 152, 39, .3);}
+
+.metalloid{background-color:rgba(120, 186, 0, .3);}
+
+.noblegas{background-color: rgba(198, 26, 244, .3);}
+
+.acti-lantanoid{background-color:  rgba(223, 211, 39, .3);}
+
+.announ{background-color:  white;}
+body{display: flex;
+  justify-content: center;
+ }
+a{ 
+    text-decoration: none;
+color:#006666
+}
+a:hover{
+    color:#2faeac
+}
+.pole{
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+   
+    width:60%;
+   height:615px;
+    border: 10px #CCCC99 solid;
+    border-top-left-radius:4% 6%;
+    border-top-right-radius:4% 6%;
+    border-bottom-left-radius:4% 6%;
+    border-bottom-right-radius:4% 6%;
+    padding: 0.5% 2%
+}
+.element{
+    text-align: center;
+    font-family:"helvetica",sans-serif;
+color:#003333;
+    font-size: 3em;
+   
+    margin-bottom:30px
+}
+.footer{
+    bottom: 20px;
+    left: 48%;
+  position:absolute;
+    margin-bottom:0px;
+   text-align: center;
+   
+}
+p{margin-top: 10px;
+    font-size: 1.15em;
+   
+}
+h1{
+    margin-bottom: 3%
+}
+.tblink{
+    
+}
+td,th{
+    border: 1px solid coral
+}
+ol{
+    margin-top:-10px
+}
+.navtb{
+    position:absolute;
+    font-size: 1.3em
+}
+
+footer{display:flex;
+    background-color: #80b1bd;
+    position:absolute;
+    bottom:-23%;
+    width:100%;
+    height: 15%;
+        font-size:1.2em;
+    color:#4b4b4b;
+}
+.foot-l{
+    position:relative;
+right:-30%;
+top:40%;
+    height:1%;
+}
+.foot-r{position:relative;
+right:-45%;
+top:40%;
+height:1%}

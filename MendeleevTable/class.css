@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(224, 255, 255, .3);
+}
+h1{
+    display: flex;
+    float: center
+    
+}
+a{ 
+    text-decoration: none;
+color:#006666
+}
+a:hover{
+    color:#2faeac
+}
+.text{
+    border: 1px dashed black;
+    width: 40%;
+    border-radius: 5%;
+    padding: 10px 20px;
+    
+}
+.l{
+    margin: 1% 3% 1% 5%;
+    
+    float:left
+}
+.c{
+   margin-left: 27%;
+    text-align: center
+}
+c1{margin-left: auto;
+margin-right: auto} 
+.r{
+    margin:1% 4% 1%  0 ;
+    
+    
+    float:right
+}
+body{
+    display: flex;
+    justify-content: ;
+    flex-wrap: wrap
+    
+}
+.head{
+    
+}
+p{
+   
+}
+.nonmetall{
+    
+    background-color: rgba(30, 144, 255, .45);
+}
+.halogen{
+     
+    
+    background-color:rgba(108, 49, 252, .45);
+}
+.alkalimetall{
+     ;
+    background-color: rgba(223, 62, 39, .3);
+}
+.transmetall{
+     
+    background-color: rgba(235, 143, 39, .3);
+}
+.lightmetall{
+     background-color:
+        rgba(173, 152, 39, .4);
+}
+.metalloid{
+     
+    background-color:
+        rgba(120, 186, 0, .4);
+}
+.noblegas{
+     
+    background-color: rgba(198, 26, 244, .3);
+}
+.acti-lantanoid{
+      
+     background-color:  rgba(223, 211, 39, .45);
+}
+.announ{
+    background-color:  white;
+   height: 170px
+}
+.bmtbl{
+    margin-top: 0;
+    margin-bottom: 4px
+}
+td,th{
+    border: 1px solid darkblue
+}
+table{
+    margin-top: 5px
+}
+.navtb{
+    font-size: 1.2em;
+    color:darkblue
+}
+footer{display:flex;
+    background-color: #80b1bd;
+    position:absolute;
+    bottom:-265%;
+    width:100%;
+    height: 15%;
+        font-size:1.2em;
+    color:#4b4b4b;
+}
+.foot-l{
+    position:relative;
+right:-30%;
+top:40%;
+    height:1%;
+}
+.foot-r{position:relative;
+right:-45%;
+top:40%;
+height:1%}
